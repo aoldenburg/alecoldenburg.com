@@ -1,0 +1,59 @@
+{
+  "name": "alecoldenburg",
+  "version": "1.0.0",
+  "description": "A personal site for Alec Oldenburg",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server/index.js",
+    "webpack": "npx webpack -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoldenburg/alecoldenburg.com.git"
+  },
+  "author": "Alec Oldenburg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoldenburg/alecoldenburg.com/issues"
+  },
+  "homepage": "https://github.com/aoldenburg/alecoldenburg.com#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "extends": [
+      "standard",
+      "standard-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "enzyme": "^3.7.0",
+    "eslint": "^5.6.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-react": "^1.1.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
