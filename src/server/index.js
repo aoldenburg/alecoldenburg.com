@@ -1,7 +1,6 @@
-var express = require('express');
-var app = express();
+import app from './app'
 
-// index.html static serve index.html
-app.use(express.static(__dirname + './../../public/'));
-app.listen(3000);
+const port = process.env.PORT || 8080
 
+app.listen(port)
+console.log('Listening at http://localhost:%d', port)
